@@ -1,5 +1,7 @@
 # Energy Load Forecasting
 
+[![tests](https://github.com/SamuelJCB/energy-load-forecasting/actions/workflows/tests.yml/badge.svg)](https://github.com/SamuelJCB/energy-load-forecasting/actions/workflows/tests.yml) ![Python 3.12](https://img.shields.io/badge/python-3.12-blue) ![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
 Day-ahead electricity demand forecasting for **residential, commercial, and industrial** load segments, built around XGBoost with automated data ingestion and drift-triggered retraining.
 
 This repository is a public, reproducible version of the forecasting workflow I designed as a Venture Fellow in the Harvard Undergrad Ventures-TECH Summer Program (2025). The program work used partner data that cannot be shared, so this version ships with a weather-driven synthetic data generator. Every number below comes from running the code in this repository.
